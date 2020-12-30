@@ -1,4 +1,4 @@
-- name: surver
+- name: survey
   hosts: all
   gather_facts: yes
   become: yes
@@ -10,7 +10,6 @@
       - htop
       - nmon
       - pwgen
-      - apache2
     hostname: testhost
     new_user: mellivoora
     user_pw: password
