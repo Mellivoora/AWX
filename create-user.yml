@@ -6,10 +6,8 @@
 
   - name: Create User
     user:
-      name: "akylbek"
-      name: "uulka"
-      name: "nurkyz"
-      home: "/home/akylbek"
+      name: "mellivoora"
+      home: "/home/mellivoora"
       shell: /bin/bash
       groups: www-data
       append: yes
